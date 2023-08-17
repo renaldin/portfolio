@@ -182,7 +182,7 @@ export const projects: IProject[] = [
             "(Online) Renaldi's first profile and portfolio website. In this project, I play the role of a full-stack developer.",
         image_path: "/images/porto6.png",
         deployed: "yes",
-        deployed_url: "https://renaldin.github.io/web-portfolio-nextjs-tsx/",
+        deployed_url: "https://renaldin.github.io/portfolio",
         github: "Public",
         github_url: "https://github.com/renaldin/web-portfolio-nextjs-tsx",
         category: ["next"],
