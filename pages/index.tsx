@@ -8,7 +8,7 @@ const index = () => {
   return (
     <motion.div variants={routeAnimation} initial="initial" animate="animate" exit="exit" className="flex flex-col px-6 pt-1 flex-grow">
       <h5 className="my-3 font-medium">
-        i am fresh graduate. I am also a Freelance Web Developer with 2 years experience. The number of projects from clients that I have worked on is around 22 projects. For more details about me, download my resume.
+        I also a Freelance Web Developer with 2 years experience. The number of projects from clients that I have worked on is around 22 projects. For more details about me, download my resume.
       </h5>
       <div className="p-4 mt-5 bg-gray-400 flex-grow dark:bg-dark-100" style={{ marginLeft: '-1.5rem', marginRight: '-1.5rem' }}>
         <h6 className="my-3 text-xl font-bold tracking-wide">What can I do</h6>
