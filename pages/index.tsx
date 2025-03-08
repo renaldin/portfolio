@@ -1,4 +1,3 @@
-// import { GetServerSidePropsContext, GetStaticPathsContext } from "next"
 import { services } from "../data"
 import ServiceCard from "../components/ServiceCard"
 import { motion } from 'framer-motion'
@@ -48,31 +47,3 @@ const index = () => {
 }
 
 export default index
-
-// export const getServerSideProps = async (context: GetServerSidePropsContext) => {
-
-//   const res = await fetch('http://localhost:3000/api/services')
-//   const data = await res.json()
-
-//   console.log('SERVER', services)
-
-//   return {
-//     props: {
-//       services: data.services,
-//     }
-//   }
-// }
-
-// export const getStaticProps = async (context: GetStaticPathsContext) => {
-
-//   const res = await fetch('http://localhost:3000/api/services')
-//   const data = await res.json()
-
-//   console.log('SERVER', services)
-
-//   return {
-//     props: {
-//       services: data.services,
-//     }
-//   }
-// }
