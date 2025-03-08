@@ -25,4 +25,4 @@ export interface IProject {
     key_techs: string[]
 }
 
-export type Category = "react" | "freelance" | "laravel" | "codeigniter" | "next" | "node"
+export type Category = "react" | "freelance" | "laravel" | "codeigniter" | "next" | "express"

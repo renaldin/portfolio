@@ -26,7 +26,7 @@ const ProjectsNavbar: FunctionComponent<{ handlerFilterCategory: Function, activ
       <NavItem value="next" {...props} />
       <NavItem value="laravel" {...props} />
       <NavItem value="codeigniter" {...props} />
-      <NavItem value="node" {...props} />
+      <NavItem value="express" {...props} />
       <NavItem value="freelance" {...props} />
     </div>
   )

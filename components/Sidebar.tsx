@@ -18,7 +18,7 @@ const Sidebar = () => {
                 <span className='text-green'>Renaldi </span>
                 Noviandi
             </h3>
-            <p className='px-2 py-1 my-3 bg-gray-200 dark:bg-dark-200 rounded-full'>Fresh Graduate</p>
+            <p className='px-2 py-1 my-3 bg-gray-200 dark:bg-dark-200 rounded-full'>Software Engineer</p>
             <a className='px-2 py-1 my-3 bg-gray-200 rounded-full flex items-center justify-center dark:bg-dark-200' href='https://renaldin.github.io/portfolio/Resume Renaldi Noviandi.pdf' download>
                 <GiTie className='w-6 h-6' /> Download Resume
             </a>
@@ -30,7 +30,7 @@ const Sidebar = () => {
                 <a href="https://www.linkedin.com/in/renaldi-noviandi-422465197/" target='__blank'>
                     <AiFillLinkedin className='w-8 h-8 cursor-pointer' />
                 </a>
-                <a href="https://wa.link/ioj9ld" target='__blank'>
+                <a href="https://wa.me/62895336928026" target='__blank'>
                     <AiOutlineWhatsApp className='w-8 h-8 cursor-pointer' />
                 </a>
             </div>
