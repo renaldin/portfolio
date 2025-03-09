@@ -19,8 +19,8 @@ const Sidebar = () => {
                 Noviandi
             </h3>
             <p className='px-2 py-1 my-3 bg-gray-200 dark:bg-dark-200 rounded-full'>Software Engineer</p>
-            <a className='px-2 py-1 my-3 bg-gray-200 rounded-full flex items-center justify-center dark:bg-dark-200' href='https://renaldin.github.io/portfolio/Resume Renaldi Noviandi.pdf' download>
-                <GiTie className='w-6 h-6' /> Download Resume
+            <a className='px-2 py-1 my-3 bg-gray-200 rounded-full flex items-center justify-center dark:bg-dark-200' href='https://renaldin.github.io/portfolio/CV Renaldi Noviandi.pdf' download>
+                <GiTie className='w-6 h-6' /> Download CV
             </a>
             {/* Social Icon */}
             <div className='flex justify-around my-5 text-green w-9/12 md:w-full mx-auto'>
