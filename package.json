@@ -8,7 +8,8 @@
     "lint": "next lint",
     "build": "next build",
     "export": "next export",
-    "deploy": "next build && next export && gh-pages -d out"
+    "deploy": "next build && next export && gh-pages -d out",
+    "gh": "gh-pages -d out"
   },
   "dependencies": {
     "@types/node": "18.11.13",
