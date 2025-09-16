@@ -23,7 +23,7 @@ const index = () => {
       </div>
       <div className="p-4 mt-5 bg-gray-400 flex-grow dark:bg-dark-100" style={{ marginLeft: '-1.5rem', marginRight: '-1.5rem' }}>
         <h6 className="my-3 text-xl font-bold tracking-wide">Education</h6>
-        <motion.div variants={stagger} initial="initial" animate="animate" className="grid lg:grid-cols-2 gap-6">
+        <motion.div variants={stagger} initial="initial" animate="animate">
           <div>
               <h5 className="my-2 text-xl font-bold">Information Systems</h5>
               <p className="font-semibold">Politeknik Negeri Subang (2020-2023)</p>
@@ -31,13 +31,13 @@ const index = () => {
                   - Grade: 3.90/4.00
               </p>
               <p className="mt-3">
-                  - 1st Winner Outstanding Student. Issued by Politeknik Negeri Subang · Apr 2022
+                  - 1st Winner Outstanding Student. Issued by Politeknik Negeri Subang, Apr 2022
               </p>
               <p className="">
-                  - 1st Winner Outstanding Student. Issued by Jurusan Manajemen Informatika Politeknik Negeri Subang · Mar 2022
+                  - 1st Winner Outstanding Student. Issued by Jurusan Manajemen Informatika Politeknik Negeri Subang, Mar 2022
               </p>
               <p className="mb-3">
-                  - Creation of a Uang Kuliah Tunggal (UKT) website project for Politeknik Negeri Subang · Jan - Mar 2023
+                  - Creation of a Uang Kuliah Tunggal (UKT) website project for Politeknik Negeri Subang, Jan - Mar 2023
               </p>
           </div>
         </motion.div>

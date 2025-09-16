@@ -16,7 +16,7 @@ export const services: IService[] = [
         Icon: FaServer,
         title: "Backend Development",
         about:
-            "I can build a backend program using <b>Express Js</b>, <b>Go</b>, <b>Laravel</b>, <b>CodeIgniter</b>, <b>PostgreSQL</b>, and <b>MySQL</b>.",
+            "I can build a backend program using <b>Node Js</b>, <b>Express Js</b>, <b>Go (GoLang)</b>, <b>Laravel</b>, <b>CodeIgniter</b>, <b>PostgreSQL</b>, <b>MySQL</b>, and <b>N8N</b>.",
     },
     {
         Icon: AiOutlineApi,
@@ -36,22 +36,22 @@ export const languages: ISkill[] = [
     {
         Icon: BsCircleFill,
         name: 'Node Js',
-        level: '70%'
+        level: '80%'
     },
     {
         Icon: BsCircleFill,
         name: 'Express Js',
-        level: '70%'
+        level: '80%'
     },
     {
         Icon: BsCircleFill,
         name: 'Laravel',
-        level: '70%'
+        level: '80%'
     },
     {
         Icon: BsCircleFill,
-        name: 'Go',
-        level: '30%'
+        name: 'Go (GoLang)',
+        level: '60%'
     },
     {
         Icon: BsCircleFill,
@@ -76,7 +76,7 @@ export const languages: ISkill[] = [
     {
         Icon: BsCircleFill,
         name: 'Tailwind CSS',
-        level: '50%'
+        level: '40%'
     },
     {
         Icon: BsCircleFill,
@@ -131,7 +131,7 @@ export const tools: ISkill[] = [
 export const projects: IProject[] = [
     {
         id: 0,
-        name: "WIDER Application (WIKA Digitalization Technique) Based on Website (2024)",
+        name: "WIDER Application (WIKA Digitalization Technique) Based on Website (Oct 2023 - Jan 2024)",
         description:
             "Client: PT Wijaya Karya (Persero) Tbk - Division 2. (Online) Developed a web-based management and dashboard platform for Division 2 of PT Wijaya Karya (Persero) Tbk. The WIDER application streamlines operational processes by providing centralized data management, performance monitoring dashboards, and enhanced workflow automation. Designed a user-friendly interface using Bootstrap, ensured robust backend functionality with Laravel, and implemented a scalable MySQL database. Leveraged GitHub for efficient collaboration and version control, delivering a solution that improves decision-making and operational efficiency.",
         image_path: "/images/porto33.png",
@@ -144,7 +144,7 @@ export const projects: IProject[] = [
     },
     {
         id: 1,
-        name: "Sintesa Kasbon (2023)",
+        name: "Employee Management System (Feb 2023 - Aug 2024)",
         description:
             "Client: PT Sintesa Niaga Karya. (Online) A website that can record employee cash receipt in a company. I played a role in fixing bugs and adding features such as managing deduction of cash advances and generating reports",
         image_path: "/images/porto3.png",
@@ -157,7 +157,7 @@ export const projects: IProject[] = [
     },
     {
         id: 2,
-        name: "Sintesa Digital Printing (2024)",
+        name: "Sintesa Digital Printing (Feb 2023 - Present)",
         description:
             "Client: PT Sintesa Niaga Karya. (Online) This website is the Sintesa Digital Printing Management website from PT Sintesa Niaga Karya. It includes production management, ordering, payment features, and report management. I have a role in fixing bugs and adding features such as cashier, expense reports, cost of goods sold reports, cash on bank management, and debt management.",
         image_path: "/images/porto30.png",
@@ -170,7 +170,7 @@ export const projects: IProject[] = [
     },
     {
         id: 3,
-        name: "IMT Management (2024)",
+        name: "KPI IMT Website (Jan 2024 - Present)",
         description:
             "Client: IMT Group. (Online) This website is the IMT Management website. In this project, I play the role of a full-stack developer.",
         image_path: "/images/porto31.png",
@@ -183,7 +183,7 @@ export const projects: IProject[] = [
     },
     {
         id: 4,
-        name: "Sintesa Digital Clothing (2024)",
+        name: "Sintesa Digital Clothing (Feb 2023 - Present)",
         description:
             "Client: PT Sintesa Niaga Karya. (Online) This website is the Sintesa Digital Clothing Management website from PT Sintesa Niaga Karya. It includes production management, ordering, payment features, and report management. I have a role in fixing bugs and adding features such as expense reports, cost of goods sold reports, cash on bank management, and debt management.",
         image_path: "/images/porto32.png",
@@ -196,7 +196,7 @@ export const projects: IProject[] = [
     },
     {
         id: 5,
-        name: "Booking Billlboard (2023)",
+        name: "Booking Billlboard (Dec 2022 - Feb 2023)",
         description:
             "(Online) Billboard advertising ordering website and billboard advertising ordering management. In this project, I play the role of a full-stack developer.",
         image_path: "/images/porto7.png",
@@ -209,7 +209,7 @@ export const projects: IProject[] = [
     },
     {
         id: 6,
-        name: "APS Phone Store (2023)",
+        name: "Point of Sales Website Systems (Apr 2023 - Mei 2023)",
         description:
             "Client: APS Phone Store. (Online) Websites that can sell smartphones. On the website there are Point of Sales features and smartphone stock management.",
         image_path: "/images/porto4.png",
